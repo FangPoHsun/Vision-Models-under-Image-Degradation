@@ -47,13 +47,13 @@ We propose investigating whether incorporating transformer blocks into CNNs can:
 We applied varying levels of patch drop and permutation to the images from Image-1k dataset and tested them on multiple models.
 
 ### Occlusion Example
-![Occlusion Example](C:/Users/bml_ai/Desktop/for_READme/occlusion.jpg)
+![Occlusion Example](for_READme/occlusion.jpg)
 
 ### Permutation Example
-![Permutation Example](C:/Users/bml_ai/Desktop/for_READme/permutation.jpg)
+![Permutation Example](for_READme/permutation.jpg)
 
 ### Model Comparison
-![Model Comparison](C:/Users/bml_ai/Desktop/for_READme/model.jpg)
+![Model Comparison](for_READme/model.jpg)
 
 We found that the model incorporating transformer blocks can better handle images with missing parts.
 
@@ -61,9 +61,9 @@ We found that the model incorporating transformer blocks can better handle image
 
 Based on the analysis results and insights from the paper, we aim to implement a model combining CNN and transformer to validate the results on a small dataset (CIFAR-100).
 
-![cifar](C:/Users/bml_ai/Desktop/for_READme/cifar.jpg)
+![cifar](for_READme/cifar.jpg)
 
-![result](C:/Users/bml_ai/Desktop/for_READme/cifar_result.jpg)
+![result](for_READme/cifar_result.jpg)
 
 * The hybrid CNN-Transformer model shows modest improvements in robustness.
 * The most significant advantage appears in the 0.2-0.6 drop ratio range.
@@ -82,9 +82,8 @@ Limitation:
 * Even in constrained scenarios, a transformer-based architecture can enhance model performance.
 
 ## Reference
-https://arxiv.org/abs/2010.11929
-https://arxiv.org/abs/1706.03762
-https://arxiv.org/abs/2105.10497
-
-https://github.com/ggjy/CMT.pytorch
-https://github.com/jeonsworld/ViT-pytorch
+[Intriguing Properties of Vision Transformer](https://arxiv.org/abs/2010.11929)<br>
+[Attention Is All You Need](https://arxiv.org/abs/1706.03762)<br>
+[Vision Transformer](https://arxiv.org/abs/2105.10497)<br>
+[CMT.pytorch](https://github.com/ggjy/CMT.pytorch)<br>
+[ViT-pytorch](https://github.com/jeonsworld/ViT-pytorch)
